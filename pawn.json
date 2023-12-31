@@ -4,13 +4,7 @@
     "include_path": "src",
     "resources": [
         {
-            "name": "^pawnregex-(.*)-linux.tar.gz$",
-            "platform": "linux",
-            "archive": true,
-            "plugins": ["pawnregex.so"]
-        },
-        {
-            "name": "^pawnregex-(.*)-win32.zip$",
+            "name": "^pawnregex-1.2.3-win32.zip$",
             "platform": "windows",
             "archive": true,
             "plugins": ["pawnregex.dll"]
